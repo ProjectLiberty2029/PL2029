@@ -14,6 +14,8 @@ These notes are not correct, but may be a useful guide fo those who are technica
 
 These are a hold-over from Leap day, which was the original theme. 
 
+In general: to use this theme, replace leap-day with pl2029.
+
 To use the Leap day theme:
 
 1. Add the following to your site's `_config.yml`:
