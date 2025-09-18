@@ -4,4 +4,4 @@ source "https://rubygems.org"
 
 gemspec
 
-gem "jekyll-theme-pl2029", git: "https://github.com/ProjectLiberty2029/PL2029.git"
+gem "jekyll-theme-pl2029_theme", git: "https://github.com/ProjectLiberty2029/PL2029_theme.git"
