@@ -10,18 +10,16 @@
 
 ## Usage
 
-These notes are not correct, but may be a useful guide fo those who are technical enough. 
+These notes are not tested, but may be a useful guide for those who are technical enough. 
 
-These are a hold-over from Leap day, which was the original theme. 
+The original theme was  Leap day. This exists to provide a base to install the theme for local testing for ProjectLiberty2029. 
 
-In general: to use this theme, replace leap-day with pl2029.
-
-To use the Leap day theme:
+In general: to use this theme, replace leap-day with pl2029:
 
 1. Add the following to your site's `_config.yml`:
 
     ```yml
-    remote_theme: pages-themes/leap-day@v0.2.0
+    remote_theme: https://github.com/ProjectLiberty2029/PL2029
     plugins:
     - jekyll-remote-theme # add this line to the plugins list if you already have one
     ```
@@ -36,7 +34,7 @@ To use the Leap day theme:
 
 ### Configuration variables
 
-Leap day will respect the following variables, if set in your site's `_config.yml`:
+PL2029 will respect the following variables, if set in your site's `_config.yml`:
 
 ```yml
 title: [The title of your site]
@@ -103,17 +101,19 @@ See the [open issues](https://github.com/pages-themes/leap-day/issues) for a lis
 
 ## Project philosophy
 
-The Leap day theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
+The Leap day theme was intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
 
 ## Contributing
 
-Interested in contributing to Leap day? We'd love your help. Leap day is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
+PL2029 isn't intended for further development. 
+
+But if you like it, then perhaps you might like contributing to Leap day? They'd love your help. Leap day is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
 
 ### Previewing the theme locally
 
 If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/leap-day`)
+1. Clone down the theme's repository (`git clone https://github.com/ProjectLiberty2029/PL2029')
 2. `cd` into the theme's directory
 3. Run `script/bootstrap` to install the necessary dependencies
 4. Run `bundle exec jekyll serve` to start the preview server
